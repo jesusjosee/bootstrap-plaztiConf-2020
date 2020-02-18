@@ -1,0 +1,57 @@
+.text-platzi{
+  color: #97c93e !important;
+}
+ .btn-platzi{                             /* este estilo es para cambiar el color del boton comprar tickets */
+   background-color: #97c93e !important;
+   color: white;
+ }
+
+.btn-platzi:hover{
+  background-color: #82ad36;
+}
+
+#header img{
+  width: 80px;
+}
+
+#main .carousel-inner img{
+  max-height: 70vh;            /* muestra la imagen al 70%*/
+  object-fit: cover;           /* ajusta la imagen para que se vea ajustada*/
+  filter: grayscale(30%);     /* sirve para hacer escala de grises a las imagenes*/
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay{
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+#carousel .overlay.container,
+#carousel .overlay.row{
+  height:100%;
+}
+
+#place-time img{
+  max-width: 100%;
+}
+
+#place-time {
+  background-color: #343a40;
+  color: white;
+}
+
+#footer {
+  background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+}
+#footer a {
+  color: white;
+}
